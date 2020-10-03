@@ -54,10 +54,8 @@ const carduri = sircard
   </div>
   </div>`;
   })
-  .reduce(function (continut, item) {
+  .reduce((continut, item) => {
     return continut + item + "\n";
   }, "");
-
-//  Morala: argumentul func'iei reduce() nu e bine sa fie o functie de tip "arrow function"
 
 document.getElementById("carduri").innerHTML = carduri;
