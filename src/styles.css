@@ -1,4 +1,9 @@
 body {
   font-family: sans-serif;
-  color: red;
+}
+
+.dreapta {
+  position: absolute;
+  top: 8px;
+  right: 2px;
 }
